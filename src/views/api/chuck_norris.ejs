@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<title> Hubspot Code exercise</title>
+<link href= "/styles/dist/allstyles.min.css" rel = "stylesheet" type = "text/css" />
+<% include ../partials/_fonts.ejs %>
+
+ <h1> Random Chuck Norris Jokes </h1>
+ <% for (var i = 0; i < jokes.length; i++) { %>
+   <div class = "media">
+     <p> <%= jokes[i].joke %> </p>
+   </div>
+  <% } %>
+ </div>
+</body>
+</html>  
