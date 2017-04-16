@@ -1,4 +1,4 @@
-#Start the app 
+#Start the app:
 1. Issue the command 'npm install' at the root directory of the repo.
 2. Issue the command 'npm start' at the root directory of the repo. The command will start the app locally in your browswer on port 3000.
 
